@@ -1,0 +1,13 @@
+[Unit]
+Description=gerrit_checks_mock_fetch_endpoint
+After=syslog.target network.target
+
+[Service]
+Type=simple
+EnvironmentFile=/etc/default/gerrit-checks-mock-fetch-endpoint
+ExecStart=@/usr/bin/python3 gerrit_checks_mock_fetch_endpoint -m gerrit_checks_mock_fetch_endpoint $ARGS
+User=gerrit-checks-mock-fe
+Group=gerrit-checks-mock-fe
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,12 @@
+[main]
+drivers = sandbox
+
+[sandbox]
+
+[github]
+base_url = https://api.github.com/repos/@SPACE@
+branch_prefix = changes/
+
+[bitbucket]
+base_url = https://api.bitbucket.org/2.0/repositories/@WORKSPACE@
+branch_prefix = changes/

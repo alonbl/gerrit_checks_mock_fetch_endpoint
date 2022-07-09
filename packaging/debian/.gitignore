@@ -1,0 +1,5 @@
+*-stamp
+*.debhelper
+*.substvars
+/gerrit-checks-mock-fetch-endpoint/
+files

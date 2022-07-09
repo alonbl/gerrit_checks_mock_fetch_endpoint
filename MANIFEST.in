@@ -1,0 +1,16 @@
+include .codespell-ignore-words
+include .gitignore
+include .pre-commit-config.yaml
+include PACKAGING.md
+include config.ini.example
+include packaging/debian/.gitignore
+include packaging/debian/changelog
+include packaging/debian/compat
+include packaging/debian/control
+include packaging/debian/copyright
+include packaging/debian/gerrit-checks-mock-fetch-endpoint.install
+include packaging/debian/gerrit-checks-mock-fetch-endpoint.postinst
+include packaging/debian/gerrit-checks-mock-fetch-endpoint.postrm
+include packaging/debian/gerrit-checks-mock-fetch-endpoint.service
+include packaging/debian/rules
+include tox.ini
